@@ -3,7 +3,7 @@
 This project is a framework for creating a spite-based tilemap adventure game. All code was written in Python 2.7 using the Pygame library.
 
 ## Main Classes
-* GameController
+### GameController
 Provides an interface for managing which map in the world is currently active and for moving the player to the appropriate map zones
 
 * Tile
