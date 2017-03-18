@@ -13,7 +13,7 @@ class GameController:
         
         if direction == 'up':
             if self.player.row > 0:
-                if cMap.mapDict[cMap.mapGrid[self.row-1][self.col]].passable == True:   
+                if cMap.mapDict[cMap.mapGrid[self.player.row-1][self.player.col]].passable == True:   
                     self.player.move(direction)
                     
         elif direction == "down":
